@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchWords_fatherLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7d8bb">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#fad2ac">
+
+        <Button
+            android:id="@+id/Back_Check_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:text="返回"
+            android:background="#00ffffff"/>
+
+        <EditText
+            android:id="@+id/Edit_Check_EditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/ic_rectangular"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/Search_Check_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:text="查询"
+            android:background="#00ffffff"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Check_Dict_Pron_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_speaker"/>
+
+    <TextView
+        android:id="@+id/The_Word_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="单词" />
+
+    <TextView
+        android:id="@+id/The_Pronunciation_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="音标" />
+
+    <TextView
+        android:id="@+id/The_Translation_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="翻译" />
+
+    <TextView
+        android:id="@+id/The_From_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="来源" />
+
+
+</LinearLayout>
